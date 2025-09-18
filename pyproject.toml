@@ -19,5 +19,5 @@ dependencies = [
 mcp-server = "src.__main__:main"
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["src"]
+where = ["src"]
+include = ["*"]

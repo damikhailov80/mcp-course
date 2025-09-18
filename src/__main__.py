@@ -1,4 +1,4 @@
-from servers.crypto import mcp
+from .servers.crypto import mcp
 
 
 def main():
