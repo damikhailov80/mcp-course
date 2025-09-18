@@ -18,6 +18,8 @@ dependencies = [
 [project.scripts]
 mcp-server = "src.__main__:main"
 
-[tool.setuptools.packages.find]
-where = ["src"]
-include = ["*"]
+[tool.setuptools]
+packages = ["src", "src.servers"]
+
+[tool.setuptools.package-dir]
+"" = "."
