@@ -502,6 +502,7 @@ dependencies = [
     { name = "mcp", extra = ["cli"] },
     { name = "pillow" },
     { name = "pyautogui" },
+    { name = "requests" },
 ]
 
 [package.metadata]
@@ -510,6 +511,7 @@ requires-dist = [
     { name = "mcp", extras = ["cli"], specifier = ">=1.14.0" },
     { name = "pillow", specifier = ">=10.0.0" },
     { name = "pyautogui", specifier = ">=0.9.54" },
+    { name = "requests", specifier = ">=2.31.0" },
 ]
 
 [[package]]
